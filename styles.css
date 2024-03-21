@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+nav .name{ /*name layout*/
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav{ /*border */
+    box-shadow: 0 0 12px -2px black;
+    position: fixed;
+    left:0;
+    right:0;
+    top: 0;
+    align-items: center;
+    background-color: purple;
+    color: black;
+    display:flex;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+html{ /*background of the site */
+    background-image: url(images/img_purpleFlowers.jpg);
+    height: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.active{ /*links underline of the HTML files*/
+    border-bottom: 1px solid pink;
+    }
+
+body{ /*border of background  */
+    background-color:#E0B0FF ;
+    box-shadow: 0 0 12px -2px black;
+    height: 100vh; 
+    padding: 0;
+    max-width: 960px;
+    margin: 0 auto;
+    }
+
+main .bibleVerse{ /*bible verse */
+    font-family:cursive;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 1px 2px 2px black;
+    text-align: justify;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-right: 25px;
+    
+    }
+
+main .objective{ /*about my goals after the program*/
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    text-align: justify;
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    }
+
+main .career{ /*title of the job */
+     text-align: center;
+     font-size:  5em;
+     font-weight: bold;
+     margin-bottom: 100px;
+    }   
+
+
+main .portfolio-img{ /* my self image position */
+    display: block;
+    border: 1px solid black;
+    width: 300px;
+    float: right;
+    margin: 10px 0 10px 10px; 
+    margin-bottom: 0;
+    
+    }
+    
+
+footer a{ /*links margin of social media*/
+    margin: 0 25px;
+}
+/*media links and the images position */
+footer .social-media{
+    height: 45px; 
+}
+
+/*bottom of the footer background*/
+footer { 
+    background-color: purple;
+    color: aliceblue;
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+  }
+
+section{ /*dividing sections for about.html*/
+    border-top: 1px solid white;
+    font-size: 16px;
+    
+}
+section{
+    display: block;
+}
+
+/*header of the about.html*/
+#about-header{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 78px;
+    margin-bottom: 12px;
+    color:black;
+    text-align: center;
+
+}
+/*images for about.html file lines 138-159*/
+.about-section:nth-of-type(n) > img.disney-img {
+    float: right;
+    width: 30%;
+    height: 45%;
+    margin: 0 24px 24px 24px;
+    
+  }
+
+.about-section:nth-of-type(n) > img.musicBook-img {
+    float: left;
+    width: 198px;
+    height: 149px;
+    margin: 0 24px 24px 24px;
+  }
+
+
+.about-section:nth-of-type(n) > img.victory-img {
+    float: right;
+    width: 25%;
+    height: 35%;
+    margin: 0 24px 24px 24px;
+  }
+
+  /*p for about.html file */
+ .about-section:nth-of-type(n) > p.paragraph{
+    color:black;
+    font-size: 20px;
+    margin-top: auto;
+    padding-inline-start: 0;
+    text-align-last: left;
+ }
+
+a{ /* home, about, portfolio html links*/
+    color:white;
+    text-decoration: none;
+    font-size:x-large;
+    margin: 5px;
+}
+
+/*css styles for the portfolio.html */
+.portfolio{
+    background-color:white;
+
+}
+
+.food-img{
+    float: right;
+    width: 198px;
+    height: 149px;
+    margin: 0 24px 24px 24px;
+    
+}
+
+.world-img{
+    float: left;
+    width: 198px;
+    height: 149px;
+    margin: 0 24px 24px 24px;
+}
+
+.book-img{
+    float: right;
+    width: 198px;
+    height: 149px;
+    margin: 0 24px 24px 24px;
+}
+
+.Girls-img{
+    float: left;
+    width: 198px;
+    height: 149px;
+    margin: 0 24px 24px 24px;
+
+}
+
+.paragraph{
+    color:black;
+    font-size: 20px;
+    margin-top: auto;
+    padding-inline-start: 0;
+    text-align-last: left;
+}
