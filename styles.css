@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+main{
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+
+}
+
 nav .name{ /*name layout*/
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,7 +32,7 @@ nav{ /*border */
 }
 
 html{ /*background of the site */
-    background-image: url(images/img_purpleFlowers.jpg);
+    background-image: url(images/img_flowers.jpeg);
     height: 100%;
     margin: 0 auto;
     background-position: center;
@@ -54,23 +60,19 @@ main .bibleVerse{ /*bible verse */
     font-weight: 100;
     text-shadow: 1px 2px 2px black;
     text-align: justify;
-    margin-bottom: 0;
-    padding-top: 0px;
-    padding-right: 25px;
-    
+    position: relative;
+    top: -36px;
     }
 
 main .objective{ /*about my goals after the program*/
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     text-shadow: 1px 1px 2px black;
-    text-align: justify;
     font-weight: 100;
     font-size: 25px;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-right: 10px;
-    padding-bottom: 0;
+    position: relative;
+    top: -20px;
+    
     }
 
 main .career{ /*title of the job */
@@ -84,14 +86,10 @@ main .career{ /*title of the job */
 main .portfolio-img{ /* my self image position */
     display: block;
     border: 1px solid black;
-    width: 300px;
+    width: 225px;
     float: right;
-    margin: 10px 0 10px 10px; 
-    margin-bottom: 0;
-    
     }
     
-
 footer a{ /*links margin of social media*/
     margin: 0 25px;
 }
@@ -126,20 +124,21 @@ section{
 
 /*header of the about.html*/
 #about-header{
-    font-weight: 300;
-    font-size: 2rem;
-    margin-top: 78px;
-    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
     color:black;
     text-align: center;
+    
 
 }
 /*images for about.html file lines 138-159*/
 .about-section:nth-of-type(n) > img.disney-img {
     float: right;
-    width: 30%;
-    height: 45%;
-    margin: 0 24px 24px 24px;
+    width: 292px;
+    height: 150px;
+    position: relative;
+    bottom: -12px;
     
   }
 
@@ -165,6 +164,12 @@ section{
     margin-top: auto;
     padding-inline-start: 0;
     text-align-last: left;
+    
+ }
+
+ audio{
+    float: right;
+
  }
 
 a{ /* home, about, portfolio html links*/
@@ -172,6 +177,12 @@ a{ /* home, about, portfolio html links*/
     text-decoration: none;
     font-size:x-large;
     margin: 5px;
+}
+
+button{
+    background-color: #DDA0DD;
+    color: white;
+    border-radius: 5px;
 }
 
 /*css styles for the portfolio.html */
@@ -184,36 +195,99 @@ a{ /* home, about, portfolio html links*/
     float: right;
     width: 198px;
     height: 149px;
-    margin: 0 24px 24px 24px;
-    
+   position: relative;
+   top: -75px;
 }
 
 .world-img{
     float: left;
     width: 198px;
     height: 149px;
-    margin: 0 24px 24px 24px;
+    position: relative;
+   top: -70px;
 }
 
 .book-img{
     float: right;
     width: 198px;
     height: 149px;
-    margin: 0 24px 24px 24px;
+   position: relative;
+   top: -78px;
 }
 
 .Girls-img{
     float: left;
     width: 198px;
     height: 149px;
-    margin: 0 24px 24px 24px;
-
+    position: relative;
+    top: -75px;
 }
 
 .paragraph{
     color:black;
     font-size: 20px;
-    margin-top: auto;
-    padding-inline-start: 0;
     text-align-last: left;
+    position: relative;
+    top: -23px;
 }
+
+.title-header{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+} 
+
+
+
+
+/*for contact.html style*/
+input{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+}
+
+input[type="text" i]{
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+textarea{
+    width: 100%;
+    font-size: 15px;
+}
+
+/*awesome.html file*/
+.submitComplete{
+  margin-top: 13vh;
+  width: 100%;
+  text-align: center;
+  font-size: 333%;
+  font-family: sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 25px; 
+  }
+
+.logo{
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+    transition: 0.5 ease;
+    text-decoration: none;
+  }
+
+.logo:hover{
+    color: #d2a1fd;
+    text-shadow: 0 0 30px #d2a1fd;
+    transform: scale(1.2);
+
+  }
